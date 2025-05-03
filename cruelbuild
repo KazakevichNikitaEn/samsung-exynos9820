@@ -5,6 +5,7 @@ from sys import argv, stdout, stderr
 import re
 import json
 import atexit
+import secrets
 from copy import deepcopy
 from datetime import datetime, timedelta
 from subprocess import CalledProcessError, Popen, run, DEVNULL, PIPE
