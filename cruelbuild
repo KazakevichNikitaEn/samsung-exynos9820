@@ -88,6 +88,12 @@ toolchain = {
 }
 
 models = {
+     'N970F': {
+         'config': 'exynos9820-d1_defconfig'
+     },
+     'N971N': {
+         'config': 'exynos9820-d1xks_defconfig'
+     },
     'G970F': {
         'config': 'exynos9820-beyond0lte_defconfig'
     },
